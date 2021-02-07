@@ -1,0 +1,31 @@
+/* Variables */
+@import "vars";
+
+
+/* Default styles */
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: $white;
+
+  font-family: 'Montserrat', sans-serif;
+  color: $black;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* Blocks */
+@import "blocks/helpers";
+@import "blocks/title";
+@import "blocks/portfolio";
